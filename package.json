@@ -1,10 +1,11 @@
 {
   "name": "ilanaveda.com",
-  "version": "1.0.0",
+  "version": "1.0.0-1",
   "description": "Personal page for Ilana Zaken",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,13 @@
   "homepage": "https://github.com/jcrugzz/ilanaveda.com",
   "dependencies": {
     "ecstatic": "~0.5.4"
+  },
+  "domains": [
+    "ilanaveda.com",
+    "www.ilanaveda.com"
+  ],
+  "subdomain": "ilanaveda",
+  "engines": {
+    "node": "0.10.x"
   }
 }
