@@ -1,0 +1,27 @@
+{
+  "name": "ilanaveda.com",
+  "version": "1.0.0",
+  "description": "Personal page for Ilana Zaken",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jcrugzz/ilanaveda.com"
+  },
+  "keywords": [
+    "yoga",
+    "ayurveda",
+    "minfulness"
+  ],
+  "author": "Jarrett Cruger <jcrugzz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcrugzz/ilanaveda.com/issues"
+  },
+  "homepage": "https://github.com/jcrugzz/ilanaveda.com",
+  "dependencies": {
+    "ecstatic": "~0.5.4"
+  }
+}

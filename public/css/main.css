@@ -1,0 +1,163 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+html,
+body {
+    height: 100%
+}
+body {
+    font: normal 300 1em'Sentinel A', 'Sentinel B', Georgia, serif;
+    text-rendering: optimizeLegibility;
+    color: #333333;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none
+}
+::-moz-selection {
+    background: #af3800;
+    color: #fff
+}
+::selection {
+    background: #af3800;
+    color: #fff
+}
+::-moz-selection {
+    background: #af3800;
+    color: #fff
+}
+.schedule {
+    text-align: center;
+}
+.bio {
+    text-align: center;
+    font-size: 1.1em
+}
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table
+}
+.cf:after {
+    clear: both
+}
+p {
+    font-size: 1.375em;
+    line-height: 1.4;
+    padding: 1.5em 0;
+    word-break: break-word;
+}
+p:not(:only-child):not(:last-child) {
+    padding-bottom: 0
+}
+p:last-child {
+    margin-bottom: 0
+}
+.intro p:first-of-type:first-letter {
+    float: left;
+    padding: 0 7px 0 0;
+    font-size: 2.5em;
+    height: .75em;
+    margin-top: -9px
+}
+section {
+    position: relative;
+}
+section:not(:last-of-type):after {
+    position: absolute;
+    content: '--';
+    top: 100%;
+    left: 50%
+}
+h1 {
+    margin: 1em 0;
+    font-weight: 500;
+    color: #333333;
+    font-size: 4em;
+    font-style: italic;
+    line-height: .75;
+    text-align: center
+}
+a,
+a:visited {
+    text-decoration: none;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease
+}
+a {
+    color: #af3800;
+}
+a:focus {
+    outline: none
+}
+a:hover,
+a:active {
+    color: #8c2d00
+}
+figure {
+    display: block;
+    margin: 0;
+}
+figure img {
+    max-width: 100%
+}
+figure figcaption {
+    font: 300 .9em'Ideal Sans A', 'Ideal Sans B', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #8f8f8f;
+    text-align: left
+}
+.content {
+    margin: 0 auto
+}
+footer {
+    font-size: .75em;
+    color: #8f8f8f;
+    text-align: center
+}
+.selfie {
+    border-radius: 6px
+}
+.move-on {
+    background-color: #000;
+}
+.move-on .wrapper {
+    display: table;
+    height: 100%;
+    width: 100%
+}
+.move-on .content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+.move-on h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 7em
+}
+@media screen and (max-width: 48em) {
+    .content {
+        width: 90%;
+    }
+    .content h1 {
+        margin: 1em 0
+    }
+}
+@media screen and (min-width: 48.1em) {
+    .content {
+        width: 60%
+    }
+    .selfie {
+        width: 600px;
+        height: 300px
+    }
+}
+@media screen and (min-width: 60em) {
+    .content {
+        width: 45%
+    }
+}
