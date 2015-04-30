@@ -5,6 +5,4 @@ var ecstatic = require('ecstatic')({
   gzip: true
 });
 
-http.createServer(function (req, res) {
-  ecstatic(req, res);
-}).listen(3000);
+http.createServer(ecstatic).listen(3000);
