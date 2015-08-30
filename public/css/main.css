@@ -10,7 +10,7 @@ body {
     height: 100%
 }
 body {
-    font: normal 300 1em'Sentinel A', 'Sentinel B', Georgia, serif;
+    font: normal 300 1em'Josefin Sans', sans-serif;
     text-rendering: optimizeLegibility;
     color: #333333;
     -webkit-hyphens: none;
